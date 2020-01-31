@@ -1,3 +1,5 @@
+//Program to print only the characters that appear odd number of times in a string
+//If no such characters exist,then print -1
 import java.io.*;
 import java.util.*;
 
