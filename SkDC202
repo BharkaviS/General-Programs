@@ -1,0 +1,5 @@
+#Multiple the two halfs of the given number.
+
+m=input()
+n=len(m)//2
+print(int(m[:n])* int(m[n:3]))
