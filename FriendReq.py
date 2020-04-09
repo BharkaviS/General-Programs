@@ -17,7 +17,8 @@ Ram is already a friend of john and hence friend request cannot be sent again.
 '''
 
 n=int(input())
-a=[];b=[];c=[];d=[]
+a=[]
+b=[];c=[];d=[]
 k=0
 l=0
 for i in range(0,n):
