@@ -6,7 +6,7 @@ Input:
 3
 Mani 3 Ram Raj Guna
 Ram 2 Kumar Kishore
-suresh 2 pawan 
+suresh 2 pawan adhil
 
 Output:
 Raj Guna Kumar Kishore pawan adhil
