@@ -21,7 +21,7 @@ a=[]
 b=[]
 c=[]
 d=[]
-k=0
+
 
 for i in range(0,n):
     a=list(map(str,input().split(" ")))
