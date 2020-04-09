@@ -22,7 +22,7 @@ b=[]
 c=[]
 d=[]
 k=0
-l=0
+
 for i in range(0,n):
     a=list(map(str,input().split(" ")))
     b.append(a[0])
