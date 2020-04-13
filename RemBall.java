@@ -1,3 +1,40 @@
+/*
+
+There are n balloons and m kids wearing a particular jersey number.Each balloon has a number written on it.
+The kids can burst the balloon divisible by their jersey number.Return the remaining balloon number and if no balloons remain,
+then print -1
+
+Input:
+15 3
+30 77 66 76 85 21 53 97 42 53 83 83 60 19 67
+4 7 1
+
+Output:
+-1
+
+Input:
+5 2
+1 2 3 4 5
+2 3
+
+Output:
+1 5
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import java.io.*;
 import java.util.*;
 
