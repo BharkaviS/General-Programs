@@ -10,7 +10,7 @@ class ParanthesisBalance{
     String input;
     input = sc.next();
     for(i=0;i<input.length();i++){
-      if(input.charAt(i)=='(' || input.charAt(i)=='['){
+      if(input.charAt(i)=='(' || input.charAt(i)=='[' || input.charAt(i)=='{'){
         stack.add(input.charAt(i));
       }
       else if(input.charAt(i)==')' && stack.size()!=0){
@@ -25,7 +25,12 @@ class ParanthesisBalance{
         if(a=='[')
           c+=1;
     }
-  
+    else if(input.charAt(i)=='}' && stack.size()!=0){
+      a = stack.remove(stack.size()-1);
+
+      if(a=='{')
+        c+=1;
+  }
   }
     if(c==input.length()/2){
       System.out.println("Balanced!");
