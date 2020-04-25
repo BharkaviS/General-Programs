@@ -9,20 +9,11 @@ int main()
     while(scanf("%s ",a[i])==1){
         i++;
     }
-    if(i!=k){
-    for(j=0;j<k;j++){
+    for(j=0;j<i-k;j++){
         printf("%s ",a[j]);
     }
-    i=i-1;
-    while(i>=k){
-        printf("%s ",a[i]);
-        i--;
-    }
-    }
-    else{
-        while(i--){
-            printf("%s ",a[i]);
-            
-        }
+    l=i-1;
+    while(k--){
+        printf("%s ",a[l--]);
     }
 }
