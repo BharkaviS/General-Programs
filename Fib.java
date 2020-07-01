@@ -1,9 +1,13 @@
+/// This program generates th fibbonacci numbers.
+
+
+
 import java.io.*;
 import java.util.*;
 import java.lang.*;
 class Fib{
 
-  public int Ugly(int n){
+  public int fib(int n){
     int[] F = new int[n+2];
     int i;
     F[0]=0;
@@ -18,6 +22,6 @@ class Fib{
     Scanner sc = new Scanner(System.in);
     int n,res;
     n=sc.nextInt();
-    System.out.println(u.Ugly(n));
+    System.out.println(u.fib(n));
 }
 }
